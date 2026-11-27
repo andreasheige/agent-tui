@@ -1,0 +1,10 @@
+[package]
+name = "agent-tui"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.105"
+ratatui = "0.30.2"
+rusqlite = { version = "0.43.0", features = ["bundled"] }
+serde_json = "1.0.154"
